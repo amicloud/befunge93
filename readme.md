@@ -19,7 +19,7 @@ To run a Befunge program, just create a new interpreter and call #run with your 
 \#run returns a promise that is resolved when the program terminates (by parsing a "@").
 
 ```javascript
-const Befunge = require('./befunge93');
+const Befunge = require('befunge93');
 let befunge = new Befunge();
 
 befunge.run("1234v\n>9 #5>:#._@\n^876<")

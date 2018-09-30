@@ -52,7 +52,7 @@
 <h2>Installation</h2><p>Befunge93 is available on npm!</p>
 <pre class="prettyprint source"><code>npm install befunge93</code></pre><h3>Getting started</h3><p>To run a Befunge program, just create a new interpreter and call #run with your program as the argument.</p>
 <p>#run returns a promise that is resolved when the program terminates (by parsing a &quot;@&quot;).</p>
-<pre class="prettyprint source lang-javascript"><code>const Befunge = require('./befunge93');
+<pre class="prettyprint source lang-javascript"><code>const Befunge = require('befunge93');
 let befunge = new Befunge();
 
 befunge.run(&quot;1234v\n>9 #5>:#._@\n^876&lt;&quot;)

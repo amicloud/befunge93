@@ -1,77 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29608b96-03bd-4bcf-bbda-ebdfa1dec7bd" name="Default Changelist" comment="Changed docs directory">
-      <change afterPath="$PROJECT_DIR$/.jsdoc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minami/.npmignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minami/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minami/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minami/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minami/publish.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minami/static/fonts/OpenSans-Bold-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minami/static/fonts/OpenSans-Bold-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minami/static/fonts/OpenSans-Bold-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minami/static/fonts/OpenSans-BoldItalic-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minami/static/fonts/OpenSans-BoldItalic-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minami/static/fonts/OpenSans-BoldItalic-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minami/static/fonts/OpenSans-Italic-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minami/static/fonts/OpenSans-Italic-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minami/static/fonts/OpenSans-Italic-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minami/static/fonts/OpenSans-Light-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minami/static/fonts/OpenSans-Light-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minami/static/fonts/OpenSans-Light-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minami/static/fonts/OpenSans-LightItalic-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minami/static/fonts/OpenSans-LightItalic-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minami/static/fonts/OpenSans-LightItalic-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minami/static/fonts/OpenSans-Regular-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minami/static/fonts/OpenSans-Regular-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minami/static/fonts/OpenSans-Regular-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minami/static/fonts/OpenSans-Semibold-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minami/static/fonts/OpenSans-Semibold-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minami/static/fonts/OpenSans-Semibold-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minami/static/fonts/OpenSans-Semibold-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minami/static/fonts/OpenSans-SemiboldItalic-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minami/static/fonts/OpenSans-SemiboldItalic-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minami/static/fonts/OpenSans-SemiboldItalic-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minami/static/fonts/OpenSans-SemiboldItalic-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minami/static/scripts/linenumber.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minami/static/scripts/prettify/Apache-License-2.0.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minami/static/scripts/prettify/lang-css.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minami/static/scripts/prettify/prettify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minami/static/styles/jsdoc-default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minami/static/styles/prettify-jsdoc.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minami/static/styles/prettify-tomorrow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minami/tmpl/augments.tmpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minami/tmpl/container.tmpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minami/tmpl/details.tmpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minami/tmpl/example.tmpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minami/tmpl/examples.tmpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minami/tmpl/exceptions.tmpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minami/tmpl/layout.tmpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minami/tmpl/mainpage.tmpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minami/tmpl/members.tmpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minami/tmpl/method.tmpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minami/tmpl/params.tmpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minami/tmpl/properties.tmpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minami/tmpl/returns.tmpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minami/tmpl/source.tmpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minami/tmpl/tutorial.tmpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/minami/tmpl/type.tmpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Befunge 93 Interpreter.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.npmignore" beforeDir="false" afterPath="$PROJECT_DIR$/.npmignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/befunge93.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/befunge93.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Befunge93.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Befunge93.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/befunge93.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/befunge93.js.html" afterDir="false" />
+    <list default="true" id="29608b96-03bd-4bcf-bbda-ebdfa1dec7bd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example1.js" beforeDir="false" afterPath="$PROJECT_DIR$/examples/example1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example2.js" beforeDir="false" afterPath="$PROJECT_DIR$/examples/example2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,17 +26,17 @@
           <entry key="gitignore" value="3" />
           <entry key="html" value="1" />
           <entry key="js" value="4" />
-          <entry key="json" value="5" />
-          <entry key="md" value="1" />
+          <entry key="json" value="7" />
+          <entry key="md" value="2" />
           <entry key="npmignore" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="1" />
-          <entry key="JSON" value="5" />
+          <entry key="JSON" value="7" />
           <entry key="JavaScript" value="4" />
-          <entry key="Markdown" value="1" />
+          <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="7" />
         </counts>
       </usages-collector>
@@ -111,18 +44,18 @@
         <counts>
           <entry key="gitignore" value="41" />
           <entry key="js" value="99" />
-          <entry key="json" value="49" />
+          <entry key="json" value="50" />
           <entry key="md" value="1705" />
           <entry key="npmignore" value="109" />
-          <entry key="txt" value="264" />
+          <entry key="txt" value="344" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JSON" value="49" />
+          <entry key="JSON" value="50" />
           <entry key="JavaScript" value="100" />
           <entry key="Markdown" value="1704" />
-          <entry key="PLAIN_TEXT" value="414" />
+          <entry key="PLAIN_TEXT" value="494" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -142,19 +75,27 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.npmignore">
+        <entry file="file://$PROJECT_DIR$/docs/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+            <state relative-caret-position="127">
+              <caret line="54" column="79" selection-start-line="54" selection-start-column="79" selection-end-line="54" selection-end-column="79" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        <entry file="file://$PROJECT_DIR$/package-lock.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-1186">
+                <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -164,15 +105,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="46">
               <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="77" column="53" selection-start-line="77" selection-start-column="53" selection-end-line="77" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -189,11 +121,12 @@
         <option value="$PROJECT_DIR$/test.js" />
         <option value="$PROJECT_DIR$/befunge93.js" />
         <option value="$PROJECT_DIR$/example1.js" />
-        <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/.jsdoc.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/.npmignore" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/docs/index.html" />
       </list>
     </option>
   </component>
@@ -234,6 +167,11 @@
               <item name="Befunge 93 Interpreter" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name=".idea" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Befunge 93 Interpreter" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="docs" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -304,7 +242,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1538285693710</updated>
-      <workItem from="1538285715637" duration="8123000" />
+      <workItem from="1538285715637" duration="8906000" />
     </task>
     <task id="LOCAL-00001" summary="Cleaned things up. Started readme">
       <created>1538290657724</created>
@@ -348,11 +286,25 @@
       <option name="project" value="LOCAL" />
       <updated>1538330068990</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Rearranged things. Generated new docs. Moved docs.">
+      <created>1538331406395</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1538331406395</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Fixed typo in documentation">
+      <created>1538331619506</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1538331619506</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8123000" />
+    <option name="totallyTimeSpent" value="8906000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -392,7 +344,9 @@
     <MESSAGE value="Updated version to 1.0.11" />
     <MESSAGE value="Changed docs directory to better suite github pages" />
     <MESSAGE value="Changed docs directory" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed docs directory" />
+    <MESSAGE value="Rearranged things. Generated new docs. Moved docs." />
+    <MESSAGE value="Fixed typo in documentation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed typo in documentation" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../Befunge 93 IDE/.gitignore">
@@ -402,16 +356,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="1" column="51" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="181">
-            <caret line="82" column="3" selection-start-line="82" selection-start-column="3" selection-end-line="82" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -444,10 +388,17 @@
     <entry file="file://$PROJECT_DIR$/node_modules/minami/.npmignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/index.html">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="77" column="53" selection-start-line="77" selection-start-column="53" selection-end-line="77" selection-end-column="53" />
+        <state relative-caret-position="69">
+          <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.npmignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -468,17 +419,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-1186">
+            <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.npmignore">
+    <entry file="file://$PROJECT_DIR$/docs/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        <state relative-caret-position="127">
+          <caret line="54" column="79" selection-start-line="54" selection-start-column="79" selection-end-line="54" selection-end-column="79" />
         </state>
       </provider>
     </entry>
