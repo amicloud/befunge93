@@ -154,8 +154,6 @@ class Befunge93 {
                 this.toggleStringMode();
             } else if (char <= 255) {
                 this.push(char);
-            } else {
-                // Do nothing for now
             }
         } else {
             if (Befunge93.isHexDigit(token)) {
@@ -163,7 +161,6 @@ class Befunge93 {
             } else {
                 switch (token) {
                     case " ":
-                        // this.stepInto();
                         break;
                     case ">":
                         this.right();

@@ -1,7 +1,7 @@
 const Befunge = require('./befunge93');
 let befunge = new Befunge();
-const readLine = require('readline-sync');
 
+const readLine = require('readline-sync');
 befunge.onInput = (message) => {
     console.log(message);
     return readLine.prompt();
