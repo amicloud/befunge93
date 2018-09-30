@@ -3,3 +3,4 @@ example*.js
 .jsdoc.json
 package-lock.json
 .gitignore
+node_modules
