@@ -63,7 +63,7 @@ befunge.run(&quot;1234v\n>9 #5>:#._@\n^876&lt;&quot;)
 <p>In order to provide the interpreter with input/output, you must supply the #onInput and #onOutput callbacks.</p>
 <h5>#onInput</h5><p>Called when the interpreter needs input from the user. Ie. the ~ and &amp; commands.<br>Example:</p>
 <pre class="prettyprint source lang-javascript"><code>befunge.onInput = (message) => {
-    return alert(message);
+    return prompt(message);
 };</code></pre><h5>#onOutput</h5><p>Called when the interpreter outputs a character. Ie. the , and . commands<br>Example:</p>
 <pre class="prettyprint source lang-javascript"><code>befunge.onOutput = (output) => {
     console.log(output);

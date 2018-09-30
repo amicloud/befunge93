@@ -1,6 +1,6 @@
 {
   "name": "befunge93",
-  "version": "1.0.134",
+  "version": "1.0.135",
   "description": "A fast interpreter for the Befunge language",
   "main": "lib/befunge93.js",
   "directories": {

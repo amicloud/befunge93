@@ -40,7 +40,7 @@ Called when the interpreter needs input from the user. Ie. the ~ and & commands.
 Example:
 ```javascript
 befunge.onInput = (message) => {
-    return alert(message);
+    return prompt(message);
 };
 ```
 
