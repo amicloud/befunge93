@@ -1,4 +1,4 @@
-const Befunge = require('./befunge93');
+const Befunge = require('../lib/befunge93');
 const chai = require('chai'), expect = chai.expect;
 
 describe('Befunge', function () {

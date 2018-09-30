@@ -1,4 +1,4 @@
-const Befunge = require('./befunge93');
+const Befunge = require('../lib/befunge93');
 let befunge = new Befunge();
 
 const readLine = require('readline-sync');

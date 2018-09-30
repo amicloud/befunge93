@@ -1,2 +1,5 @@
 example*.js
 .idea/
+.jsdoc.json
+package-lock.json
+.gitignore

@@ -1,8 +1,8 @@
 {
   "name": "befunge93",
-  "version": "1.0.13",
+  "version": "1.0.131",
   "description": "A fast interpreter for the Befunge language",
-  "main": "befunge93.js",
+  "main": "lib/befunge93.js",
   "directories": {
     "doc": "docs"
   },
@@ -13,12 +13,18 @@
     "type": "git",
     "url": "https://github.com/amicloud/befunge93"
   },
-  "homepage" : "https://github.com/amicloud/befunge93",
+  "homepage": "https://github.com/amicloud/befunge93",
   "keywords": [
     "esoteric",
     "befunge",
     "interpreter"
   ],
   "author": "Amy Smith",
-  "license": "ISC"
+  "license": "ISC",
+  "scripts": {
+    "generate-docs": "node_modules/.bin/jsdoc --configure .jsdoc.json --verbose"
+  },
+  "devDependencies": {
+    "minami": "^1.2.3"
+  }
 }
