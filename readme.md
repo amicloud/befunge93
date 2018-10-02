@@ -27,7 +27,7 @@ befunge.run("1234v\n>9 #5>:#._@\n^876<")
         console.log(output);
     });
 ```
-Outputs: 987654321
+Outputs: "9 8 7 6 5 4 3 2 1 "
 
 ### Advanced Usage
 
