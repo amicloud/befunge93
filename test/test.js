@@ -1,5 +1,8 @@
 const Befunge = require('../lib/befunge93');
 const chai = require('chai'), expect = chai.expect;
+const sinon = require("sinon"), sinonChai = require("sinon-chai");
+const assert = require("assert");
+chai.use(sinonChai);
 
 describe('Befunge', function () {
     let bef;
@@ -81,12 +84,6 @@ describe('Befunge', function () {
             bef.y = 0;
             bef.step();
             expect(bef.y).to.equal(24);
-        });
-    });
-
-    describe('#parseToken()', function () {
-        it('call the right method for each token', function () {
-            // honestly that's a lot of stuff and I can't be bothered right now...
         });
     });
 
@@ -488,11 +485,11 @@ describe('Befunge', function () {
             expect(bef.stack).to.deep.equal([65]);
         });
 
-        it('should push zero if coords are out of bounds', function(){
-            bef.stack = [80,25];
+        it('should push zero if coords are out of bounds', function () {
+            bef.stack = [80, 25];
             bef.get();
             expect(bef.stack).to.deep.equal([0]);
-        })
+        });
     });
 
     describe('#inInt()', function () {
@@ -502,6 +499,12 @@ describe('Befunge', function () {
             };
             bef.inInt();
             expect(bef.stack).to.deep.equal([100]);
+        });
+    });
+
+    describe('#_onInput()', function () {
+        it('should throw error if there is no callback', function () {
+            assert.throws(() => bef._onInput(), Error);
         });
     });
 
@@ -539,6 +542,305 @@ describe('Befunge', function () {
             t.forEach(function (val) {
                 expect(Befunge.isHexDigit(val)).to.equal(false);
             });
+        });
+    });
+
+    describe('#parseToken', function () {
+        it('should parse space', function () {
+            expect(bef.parseToken(" ")).to.be.null;
+        });
+
+        it('should parse >', function () {
+            let spy = sinon.spy(bef, "right");
+            bef.parseToken(">");
+            sinon.assert.calledOnce(spy);
+        });
+
+        it('should parse <', function () {
+            let spy = sinon.spy(bef, "left");
+            bef.parseToken("<");
+            sinon.assert.calledOnce(spy);
+        });
+
+        it('should parse ^', function () {
+            let spy = sinon.spy(bef, "up");
+            bef.parseToken("^");
+            sinon.assert.calledOnce(spy);
+        });
+
+        it('should parse v', function () {
+            let spy = sinon.spy(bef, "down");
+            bef.parseToken("v");
+            sinon.assert.calledOnce(spy);
+        });
+
+        it('should parse ?', function () {
+            let spy = sinon.spy(bef, "randomDirection");
+            bef.parseToken("?");
+            sinon.assert.calledOnce(spy);
+        });
+
+        it('should parse +', function () {
+            let spy = sinon.spy(bef, "add");
+            bef.parseToken("+");
+            sinon.assert.calledOnce(spy);
+        });
+
+        it('should parse -', function () {
+            let spy = sinon.spy(bef, "subtract");
+            bef.parseToken("-");
+            sinon.assert.calledOnce(spy);
+        });
+
+        it('should parse *', function () {
+            let spy = sinon.spy(bef, "multiply");
+            bef.parseToken("*");
+            sinon.assert.calledOnce(spy);
+        });
+
+        it('should parse /', function () {
+            let spy = sinon.spy(bef, "divide");
+            bef.parseToken("/");
+            sinon.assert.calledOnce(spy);
+        });
+
+        it('should parse %', function () {
+            let spy = sinon.spy(bef, "modulo");
+            bef.parseToken("%");
+            sinon.assert.calledOnce(spy);
+        });
+
+        it('should parse `', function () {
+            let spy = sinon.spy(bef, "greaterThan");
+            bef.parseToken("`");
+            sinon.assert.calledOnce(spy);
+        });
+
+        it('should parse !', function () {
+            let spy = sinon.spy(bef, "not");
+            bef.parseToken("!");
+            sinon.assert.calledOnce(spy);
+        });
+
+        it('should parse _', function () {
+            let spy = sinon.spy(bef, "horizontalIf");
+            bef.parseToken("_");
+            sinon.assert.calledOnce(spy);
+        });
+
+        it('should parse |', function () {
+            let spy = sinon.spy(bef, "verticalIf");
+            bef.parseToken("|");
+            sinon.assert.calledOnce(spy);
+        });
+
+        it('should parse :', function () {
+            let spy = sinon.spy(bef, "duplicate");
+            bef.parseToken(":");
+            sinon.assert.calledOnce(spy);
+        });
+
+        it('should parse \\', function () {
+            let spy = sinon.spy(bef, "swap");
+            bef.parseToken("\\");
+            sinon.assert.calledOnce(spy);
+        });
+
+        it('should parse $', function () {
+            let spy = sinon.spy(bef, "discard");
+            bef.parseToken("$");
+            sinon.assert.calledOnce(spy);
+        });
+
+        it('should parse .', function () {
+            let spy = sinon.spy(bef, "outInt");
+            bef.parseToken(".");
+            sinon.assert.calledOnce(spy);
+        });
+
+        it('should parse ,', function () {
+            let spy = sinon.spy(bef, "outAscii");
+            bef.parseToken(",");
+            sinon.assert.calledOnce(spy);
+        });
+
+        it('should parse #', function () {
+            let spy = sinon.spy(bef, "bridge");
+            bef.parseToken("#");
+            sinon.assert.calledOnce(spy);
+        });
+
+        it('should parse g', function () {
+            let spy = sinon.spy(bef, "get");
+            bef.parseToken("g");
+            sinon.assert.calledOnce(spy);
+        });
+
+        it('should parse p', function () {
+            let spy = sinon.spy(bef, "put");
+            bef.parseToken("p");
+            sinon.assert.calledOnce(spy);
+        });
+
+        it('should parse &', function () {
+            let spy = sinon.spy(bef, "inInt");
+            bef.onInput = () => { return 0;};
+            bef.parseToken("&");
+            sinon.assert.calledOnce(spy);
+        });
+
+        it('should parse ~', function () {
+            bef.onInput = () => { return "a";};
+            let spy = sinon.spy(bef, "inAscii");
+            bef.parseToken("~");
+            sinon.assert.calledOnce(spy);
+        });
+
+        it('should parse `', function () {
+            let spy = sinon.spy(bef, "greaterThan");
+            bef.parseToken("`");
+            sinon.assert.calledOnce(spy);
+        });
+
+        it('should parse @', function () {
+            let spy = sinon.spy(bef, "terminateProgram");
+            bef.parseToken("@");
+            sinon.assert.calledOnce(spy);
+        });
+    });
+
+    describe('#loadProgram', function () {
+        it('should load program characters', function () {
+            bef.loadProgram("123\n456\n,.@");
+            expect(bef.program[0][0]).to.equal("1");
+            expect(bef.program[0][1]).to.equal("2");
+            expect(bef.program[0][2]).to.equal("3");
+            expect(bef.program[1][0]).to.equal("4");
+            expect(bef.program[1][1]).to.equal("5");
+            expect(bef.program[1][2]).to.equal("6");
+            expect(bef.program[2][0]).to.equal(",");
+            expect(bef.program[2][1]).to.equal(".");
+            expect(bef.program[2][2]).to.equal("@");
+        });
+    });
+
+    describe('#getToken', function () {
+        it('should retrieve a token from program', function () {
+            bef.loadProgram("123\n456\n,.@");
+            expect(bef.getToken(0, 0)).to.equal("1");
+            expect(bef.getToken(1, 1)).to.equal("5");
+            expect(bef.getToken(2, 2)).to.equal("@");
+        });
+    });
+
+    describe('#init', function () {
+        it('should load the program', function () {
+            bef.loadProgram("123\n456\n,.@");
+            expect(bef.program[0][0]).to.equal("1");
+            expect(bef.program[0][1]).to.equal("2");
+            expect(bef.program[0][2]).to.equal("3");
+            expect(bef.program[1][0]).to.equal("4");
+            expect(bef.program[1][1]).to.equal("5");
+            expect(bef.program[1][2]).to.equal("6");
+            expect(bef.program[2][0]).to.equal(",");
+            expect(bef.program[2][1]).to.equal(".");
+            expect(bef.program[2][2]).to.equal("@");
+        });
+
+        it('should set hasNext to true', function () {
+            bef.loadProgram("123\n456\n,.@");
+            expect(bef.hasNext).to.be.true;
+        });
+
+        it('should set programLoaded to true', function () {
+            bef.loadProgram("123\n456\n,.@");
+            expect(bef.programLoaded).to.be.true;
+        });
+
+        it('throw an error if issue loading program');
+    });
+    describe('#stepInto', function () {
+        it('should step and parse next token', function () {
+            let spy = sinon.spy(bef, "pushHexValueToStack");
+            bef.loadProgram("123\n456\n,.@");
+            bef.stepInto();
+            sinon.assert.calledOnce(spy);
+        });
+
+        it('should only step and not parse a space', function () {
+            let spy = sinon.spy(bef, "step");
+            bef.loadProgram(" 23\n456\n,.@");
+            bef.stepInto();
+            sinon.assert.calledOnce(spy);
+        });
+
+        it('parse multiple spaces at a time', function () {
+            let spy = sinon.spy(bef, "step");
+            bef.loadProgram("     v\n456\n,.@");
+            bef.stepInto();
+            expect(spy.callCount).to.equal(5);
+        });
+    });
+    describe('#pause', function () {
+        it('should set hasNext to false', function () {
+            bef.pause();
+            expect(bef.hasNext).to.be.false;
+        });
+    });
+    describe('#resume', function () {
+        it('should set hasNext to true', function () {
+            bef.resume();
+            expect(bef.hasNext).to.be.true;
+        });
+    });
+    describe('#run', function () {
+
+        describe('should call onTick if provided', function () {
+
+
+        });
+
+        it('should reset if reset is true', function () {
+            let spy = sinon.spy(bef, 'reset');
+            bef.run("12312@");
+            bef.run("123@", true);
+            expect(spy.callCount).to.equal(1);
+        });
+
+        it('should give expected output for program', function () {
+            bef.run("8:>1# -# :_$>\\# :#*_$.@");
+            expect(bef.output).to.equal("40320 ");
+        });
+
+        it('should give expected output for program', function () {
+            bef.run("##\"57*:,,48*2+,>:#,_48*2+,57*,          @          ,*75,+2*84_,#:>,+2*84,,:*75\"#");
+            expect(bef.output).to.equal("##\"57*:,,48*2+,>:#,_48*2+,57*,          @          ,*75,+2*84_,#:>,+2*84,,:*75\"#");
+        });
+
+        it('should do test bridge right', function () {
+            bef.run(">>>>v\n" +
+                "@0.v>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>#\n" +
+                "#<<<                                                                        @.1@");
+            expect(bef.output).to.equal("0 1 ");
+        });
+    });
+    describe('#reset', function () {
+        it('should reset befunge to default state', function () {
+            bef.stack = [1, 2, 3, 4, 5];
+            bef.output = "asfasdgagag";
+            bef.loadProgram('q451424\n145123523\n1231235t2');
+            bef.x = 5;
+            bef.y = 123;
+            bef.dX = -1;
+            bef.dY = -1;
+            bef.stringMode = true;
+            bef.reset();
+            expect(bef.stack).to.deep.equal([]);
+            expect(bef.output).to.equal("");
+            expect(bef.x).to.equal(0);
+            expect(bef.y).to.equal(0);
+            expect(bef.dX).to.equal(1);
+            expect(bef.dY).to.equal(0);
         });
     });
 });

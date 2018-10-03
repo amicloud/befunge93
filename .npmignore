@@ -4,3 +4,4 @@ example*.js
 package-lock.json
 .gitignore
 node_modules
+.coveralls.yml
