@@ -1,7 +1,9 @@
-example*.js
+examples/
 .idea/
 .jsdoc.json
 package-lock.json
 .gitignore
 node_modules
 .coveralls.yml
+.travis.yml
+docs/
