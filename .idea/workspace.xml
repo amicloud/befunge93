@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c7e029e-56b9-43b7-8765-5b366af4862b" name="Default Changelist" comment="">
+    <list default="true" id="9c7e029e-56b9-43b7-8765-5b366af4862b" name="Default Changelist" comment="Coveralls? Maybe?">
+      <change afterPath="$PROJECT_DIR$/.coveralls.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,7 +14,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Befunge_93_Interpreter$Befunge__outInt___should_call_callback_with_last_value_of_stack___a_space.dat" NAME="Befunge.#outInt().should call callback with last value of stack + a space Coverage Results" MODIFIED="1538542764030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="MochaJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Befunge_93_Interpreter$Befunge__outInt___should_call_callback_with_last_value_of_stack___a_space.dat" NAME="Befunge.#outInt().should call callback with last value of stack + a space Coverage Results" MODIFIED="1538543470265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="MochaJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Befunge_93_Interpreter$test_test_js.dat" NAME="test\test.js Coverage Results" MODIFIED="1538543480409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="MochaJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="292" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-56500165">
@@ -30,12 +34,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="gitignore" value="1" />
+          <entry key="gitignore" value="16" />
           <entry key="js" value="2203" />
           <entry key="json" value="98" />
-          <entry key="md" value="2" />
+          <entry key="md" value="3" />
           <entry key="todo" value="1" />
-          <entry key="txt" value="541" />
+          <entry key="txt" value="559" />
           <entry key="yml" value="47" />
         </counts>
       </usages-collector>
@@ -43,8 +47,8 @@
         <counts>
           <entry key="JSON" value="98" />
           <entry key="JavaScript" value="2203" />
-          <entry key="Markdown" value="2" />
-          <entry key="PLAIN_TEXT" value="543" />
+          <entry key="Markdown" value="3" />
+          <entry key="PLAIN_TEXT" value="576" />
           <entry key="YAML" value="47" />
         </counts>
       </usages-collector>
@@ -65,7 +69,7 @@
           <entry key="todo" value="1" />
           <entry key="ts" value="1" />
           <entry key="xml" value="1" />
-          <entry key="yml" value="1" />
+          <entry key="yml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -77,7 +81,7 @@
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="TypeScript" value="1" />
           <entry key="XML" value="1" />
-          <entry key="YAML" value="1" />
+          <entry key="YAML" value="2" />
         </counts>
       </usages-collector>
     </session>
@@ -110,29 +114,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="440" column="31" selection-start-line="440" selection-start-column="31" selection-end-line="440" selection-end-column="31" />
+            <state relative-caret-position="184">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.coveralls.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="1" column="24" lean-forward="true" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor>
-                <caret column="86" selection-start-column="86" selection-end-column="86" />
+              <first_editor relative-caret-position="92">
+                <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+            <state relative-caret-position="46">
+              <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -149,8 +162,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+            <state relative-caret-position="46">
+              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -169,12 +182,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/todo" />
-        <option value="$PROJECT_DIR$/test/test.js" />
         <option value="$PROJECT_DIR$/lib/befunge93.js" />
         <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/test/test.js" />
+        <option value="$PROJECT_DIR$/.coveralls.yml" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/readme.md" />
-        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -286,7 +300,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Mocha.Befunge.#outInt().should call callback with last value of stack + a space">
+  <component name="RunManager" selected="Mocha.test\test.js">
     <configuration name="befunge93.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="befunge93.js" working-dir="$PROJECT_DIR$/lib">
       <method v="2" />
     </configuration>
@@ -333,14 +347,27 @@
       <test-pattern />
       <method v="2" />
     </configuration>
+    <configuration name="test\test.js" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST_FILE</test-kind>
+      <test-file>$PROJECT_DIR$/test/test.js</test-file>
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Mocha.Tests" />
       <item itemvalue="Node.js.befunge93.js" />
       <item itemvalue="Mocha.Befunge.#get().should push zero if coords are out of bounds" />
       <item itemvalue="Mocha.Befunge.#outInt().should call callback with last value of stack + a space" />
+      <item itemvalue="Mocha.test\test.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Mocha.test\test.js" />
         <item itemvalue="Mocha.Befunge.#outInt().should call callback with last value of stack + a space" />
         <item itemvalue="Mocha.Befunge.#get().should push zero if coords are out of bounds" />
         <item itemvalue="Node.js.befunge93.js" />
@@ -363,7 +390,7 @@
       <workItem from="1538333721358" duration="679000" />
       <workItem from="1538338398474" duration="91000" />
       <workItem from="1538340596352" duration="2234000" />
-      <workItem from="1538534305380" duration="7733000" />
+      <workItem from="1538534305380" duration="8807000" />
     </task>
     <task id="LOCAL-00001" summary="Updated .git- &amp; .npmignore&#10;&#10;Accidentally uploaded node_modules dir. woooops">
       <created>1538333828987</created>
@@ -414,12 +441,12 @@
       <option name="project" value="LOCAL" />
       <updated>1538542241763</updated>
     </task>
-    <task id="LOCAL-00008" summary="Fixed typo in documentation">
-      <created>1538331619506</created>
+    <task id="LOCAL-00008" summary="Coveralls? Maybe?">
+      <created>1538543208585</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1538331619506</updated>
+      <updated>1538543208585</updated>
     </task>
     <task id="LOCAL-00009" summary="Fixed typo in documentation">
       <created>1538332191257</created>
@@ -463,16 +490,10 @@
       <option name="project" value="LOCAL" />
       <updated>1538333239978</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Befunge_#get()_should_push_zero_if_coords_are_out_of_bounds - 2018.10.02 at 21h 18m 28s.xml">
-      <configuration name="Befunge.#get().should push zero if coords are out of bounds" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="Befunge_#get()_should_push_zero_if_coords_are_out_of_bounds - 2018.10.02 at 21h 18m 41s.xml">
-      <configuration name="Befunge.#get().should push zero if coords are out of bounds" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
     <history-entry file="Befunge_#get()_should_push_zero_if_coords_are_out_of_bounds - 2018.10.02 at 21h 19m 39s.xml">
       <configuration name="Befunge.#get().should push zero if coords are out of bounds" configurationId="mocha-javascript-test-runner" />
     </history-entry>
@@ -497,16 +518,22 @@
     <history-entry file="Befunge_#outInt()_should_call_callback_with_last_value_of_stack_+_a_space - 2018.10.02 at 21h 59m 23s.xml">
       <configuration name="Befunge.#outInt().should call callback with last value of stack + a space" configurationId="mocha-javascript-test-runner" />
     </history-entry>
+    <history-entry file="Befunge_#outInt()_should_call_callback_with_last_value_of_stack_+_a_space - 2018.10.02 at 22h 11m 10s.xml">
+      <configuration name="Befunge.#outInt().should call callback with last value of stack + a space" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="test_test_js - 2018.10.02 at 22h 11m 20s.xml">
+      <configuration name="test\test.js" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10759000" />
+    <option name="totallyTimeSpent" value="11833000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49557522" visible="true" weight="0.2677761" />
-      <window_info id="Structure" order="1" sideWeight="0.50442475" side_tool="true" visible="true" weight="0.2677761" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4947735" visible="true" weight="0.2677761" />
+      <window_info id="Structure" order="1" sideWeight="0.5052265" side_tool="true" weight="0.2677761" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -519,7 +546,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.4442623" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.4442623" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Coverage" side_tool="true" visible="true" weight="0.32980332" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -550,7 +577,8 @@
     <MESSAGE value="Added Travis-CI stuff. Also + &quot;tests&quot; script in package.json" />
     <MESSAGE value="Changed node test versions and cleaned up gitignore and did what npm said" />
     <MESSAGE value="...updated package-lock.json fml. and sinon-chai" />
-    <option name="LAST_COMMIT_MESSAGE" value="...updated package-lock.json fml. and sinon-chai" />
+    <MESSAGE value="Coveralls? Maybe?" />
+    <option name="LAST_COMMIT_MESSAGE" value="Coveralls? Maybe?" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.npmignore">
@@ -590,34 +618,10 @@
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
           <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="86" selection-start-column="86" selection-end-column="86" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="440" column="31" selection-start-line="440" selection-start-column="31" selection-end-line="440" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -630,8 +634,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
-          <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.coveralls.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="24" lean-forward="true" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="92">
+            <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

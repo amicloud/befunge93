@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/amicloud/befunge93.svg?branch=master)](https://travis-ci.org/amicloud/befunge93) 
+[![Build Status](https://travis-ci.org/amicloud/befunge93.svg?branch=master)](https://travis-ci.org/amicloud/befunge93) [![Coverage Status](https://coveralls.io/repos/github/amicloud/befunge93/badge.svg?branch=master)](https://coveralls.io/github/amicloud/befunge93?branch=master) 
 # Befunge93
 
 Befunge93 is an interpreter written in JavaScript for the Befunge93 esoteric programming language.
