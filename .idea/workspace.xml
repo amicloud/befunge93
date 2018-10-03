@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c7e029e-56b9-43b7-8765-5b366af4862b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-    </list>
+    <list default="true" id="9c7e029e-56b9-43b7-8765-5b366af4862b" name="Default Changelist" comment="Changed node test versions and cleaned up gitignore and did what npm said" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +26,7 @@
           <entry key="js" value="2203" />
           <entry key="json" value="22" />
           <entry key="todo" value="1" />
-          <entry key="txt" value="440" />
+          <entry key="txt" value="488" />
           <entry key="yml" value="47" />
         </counts>
       </usages-collector>
@@ -38,7 +34,7 @@
         <counts>
           <entry key="JSON" value="22" />
           <entry key="JavaScript" value="2203" />
-          <entry key="PLAIN_TEXT" value="442" />
+          <entry key="PLAIN_TEXT" value="490" />
           <entry key="YAML" value="47" />
         </counts>
       </usages-collector>
@@ -128,7 +124,11 @@
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -317,7 +317,7 @@
       <workItem from="1538333721358" duration="679000" />
       <workItem from="1538338398474" duration="91000" />
       <workItem from="1538340596352" duration="2234000" />
-      <workItem from="1538534305380" duration="6384000" />
+      <workItem from="1538534305380" duration="6654000" />
     </task>
     <task id="LOCAL-00001" summary="Updated .git- &amp; .npmignore&#10;&#10;Accidentally uploaded node_modules dir. woooops">
       <created>1538333828987</created>
@@ -354,12 +354,12 @@
       <option name="project" value="LOCAL" />
       <updated>1538541388771</updated>
     </task>
-    <task id="LOCAL-00006" summary="Changed docs directory">
-      <created>1538330068990</created>
+    <task id="LOCAL-00006" summary="Changed node test versions and cleaned up gitignore and did what npm said">
+      <created>1538541802870</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1538330068990</updated>
+      <updated>1538541802870</updated>
     </task>
     <task id="LOCAL-00007" summary="Rearranged things. Generated new docs. Moved docs.">
       <created>1538331406395</created>
@@ -417,7 +417,7 @@
       <option name="project" value="LOCAL" />
       <updated>1538333239978</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -453,14 +453,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9410000" />
+    <option name="totallyTimeSpent" value="9680000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4967213" visible="true" weight="0.2677761" />
-      <window_info id="Structure" order="1" sideWeight="0.5032787" side_tool="true" visible="true" weight="0.2677761" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4890511" visible="true" weight="0.2677761" />
+      <window_info id="Structure" order="1" sideWeight="0.5109489" side_tool="true" visible="true" weight="0.2677761" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -473,7 +472,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.7754098" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.7754098" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -501,7 +500,8 @@
     <MESSAGE value="Improved the handling of No-Op instruction in #stepInto" />
     <MESSAGE value="Fixed some not-so-correct behavior. Fixes issue #1 and #2. Includes tests" />
     <MESSAGE value="Added Travis-CI stuff. Also + &quot;tests&quot; script in package.json" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Travis-CI stuff. Also + &quot;tests&quot; script in package.json" />
+    <MESSAGE value="Changed node test versions and cleaned up gitignore and did what npm said" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed node test versions and cleaned up gitignore and did what npm said" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.npmignore">
@@ -580,7 +580,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
