@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c7e029e-56b9-43b7-8765-5b366af4862b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/befunge93.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/befunge93.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/test.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,16 +27,18 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="js" value="2203" />
-          <entry key="json" value="6" />
+          <entry key="json" value="22" />
           <entry key="todo" value="1" />
-          <entry key="txt" value="142" />
+          <entry key="txt" value="287" />
+          <entry key="yml" value="40" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JSON" value="6" />
+          <entry key="JSON" value="22" />
           <entry key="JavaScript" value="2203" />
-          <entry key="PLAIN_TEXT" value="143" />
+          <entry key="PLAIN_TEXT" value="288" />
+          <entry key="YAML" value="40" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -55,6 +56,7 @@
           <entry key="todo" value="1" />
           <entry key="ts" value="1" />
           <entry key="xml" value="1" />
+          <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -65,6 +67,7 @@
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="TypeScript" value="1" />
           <entry key="XML" value="1" />
+          <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -106,8 +109,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            <state relative-caret-position="130">
+              <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.travis.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -128,6 +140,7 @@
         <option value="$PROJECT_DIR$/todo" />
         <option value="$PROJECT_DIR$/test/test.js" />
         <option value="$PROJECT_DIR$/lib/befunge93.js" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
@@ -237,7 +250,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Mocha.Befunge.#get().should push zero if coords are out of bounds">
+  <component name="RunManager" selected="Mocha.Tests">
     <configuration name="befunge93.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="befunge93.js" working-dir="$PROJECT_DIR$/lib">
       <method v="2" />
     </configuration>
@@ -296,7 +309,7 @@
       <workItem from="1538333721358" duration="679000" />
       <workItem from="1538338398474" duration="91000" />
       <workItem from="1538340596352" duration="2234000" />
-      <workItem from="1538534305380" duration="5263000" />
+      <workItem from="1538534305380" duration="5940000" />
     </task>
     <task id="LOCAL-00001" summary="Updated .git- &amp; .npmignore&#10;&#10;Accidentally uploaded node_modules dir. woooops">
       <created>1538333828987</created>
@@ -319,12 +332,12 @@
       <option name="project" value="LOCAL" />
       <updated>1538343012840</updated>
     </task>
-    <task id="LOCAL-00004" summary="Updated version to 1.0.11">
-      <created>1538329243270</created>
+    <task id="LOCAL-00004" summary="Fixed some not-so-correct behavior. Fixes issue #1 and #2. Includes tests">
+      <created>1538540782812</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1538329243270</updated>
+      <updated>1538540782812</updated>
     </task>
     <task id="LOCAL-00005" summary="Changed docs directory to better suite github pages">
       <created>1538329756449</created>
@@ -396,13 +409,10 @@
       <option name="project" value="LOCAL" />
       <updated>1538333239978</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Befunge_#get()_should_push_zero_if_coords_are_out_of_bounds - 2018.10.02 at 21h 16m 24s.xml">
-      <configuration name="Befunge.#get().should push zero if coords are out of bounds" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
     <history-entry file="Befunge_#get()_should_push_zero_if_coords_are_out_of_bounds - 2018.10.02 at 21h 17m 05s.xml">
       <configuration name="Befunge.#get().should push zero if coords are out of bounds" configurationId="mocha-javascript-test-runner" />
     </history-entry>
@@ -430,15 +440,18 @@
     <history-entry file="Befunge_#get()_should_push_zero_if_coords_are_out_of_bounds - 2018.10.02 at 21h 23m 14s.xml">
       <configuration name="Befunge.#get().should push zero if coords are out of bounds" configurationId="mocha-javascript-test-runner" />
     </history-entry>
+    <history-entry file="Tests - 2018.10.02 at 21h 34m 00s.xml">
+      <configuration name="Tests" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8289000" />
+    <option name="totallyTimeSpent" value="8966000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4967213" visible="true" weight="0.2677761" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4967213" visible="true" weight="0.2677761" />
       <window_info id="Structure" order="1" sideWeight="0.5032787" side_tool="true" visible="true" weight="0.2677761" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" />
@@ -452,7 +465,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.1704918" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.7754098" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -478,7 +491,8 @@
     <MESSAGE value="Fixed error in documentation" />
     <MESSAGE value="Updated .git- &amp; .npmignore&#10;&#10;Accidentally uploaded node_modules dir. woooops" />
     <MESSAGE value="Improved the handling of No-Op instruction in #stepInto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improved the handling of No-Op instruction in #stepInto" />
+    <MESSAGE value="Fixed some not-so-correct behavior. Fixes issue #1 and #2. Includes tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed some not-so-correct behavior. Fixes issue #1 and #2. Includes tests" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -549,10 +563,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        <state relative-caret-position="130">
+          <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
         </state>
       </provider>
     </entry>

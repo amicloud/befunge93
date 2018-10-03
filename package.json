@@ -22,7 +22,8 @@
   "author": "Amy Smith",
   "license": "ISC",
   "scripts": {
-    "generate-docs": "node_modules/.bin/jsdoc --configure .jsdoc.json --verbose"
+    "generate-docs": "node_modules/.bin/jsdoc --configure .jsdoc.json --verbose",
+    "test": "mocha"
   },
   "devDependencies": {
     "minami": "^1.2.3",
