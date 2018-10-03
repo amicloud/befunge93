@@ -1,6 +1,6 @@
 {
   "name": "befunge93",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A fast interpreter for the Befunge language",
   "main": "lib/befunge93.js",
   "directories": {
@@ -25,6 +25,8 @@
     "generate-docs": "node_modules/.bin/jsdoc --configure .jsdoc.json --verbose"
   },
   "devDependencies": {
-    "minami": "^1.2.3"
+    "minami": "^1.2.3",
+    "mocha": "latest",
+    "chai": "latest"
   }
 }

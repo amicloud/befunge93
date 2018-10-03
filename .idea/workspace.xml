@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c7e029e-56b9-43b7-8765-5b366af4862b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Befunge 93 Interpreter.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/befunge93.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/befunge93.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/test.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,34 +17,43 @@
     <session id="-56500165">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="1" />
-          <entry key="json" value="2" />
-          <entry key="txt" value="83" />
+          <entry key="js" value="2203" />
+          <entry key="json" value="6" />
+          <entry key="todo" value="1" />
+          <entry key="txt" value="142" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="1" />
-          <entry key="PLAIN_TEXT" value="83" />
+          <entry key="JSON" value="6" />
+          <entry key="JavaScript" value="2203" />
+          <entry key="PLAIN_TEXT" value="143" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
-      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.js.language.service.starts">
+        <counts>
+          <entry key="TypeScriptServerServiceImpl" value="1" />
+        </counts>
+      </usages-collector>
       <usages-collector id="statistics.actions.runAnything" />
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="1" />
+          <entry key="js" value="1" />
           <entry key="json" value="1" />
+          <entry key="todo" value="1" />
+          <entry key="ts" value="1" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
@@ -52,6 +61,9 @@
         <counts>
           <entry key="IDEA_MODULE" value="1" />
           <entry key="JSON" value="1" />
+          <entry key="JavaScript" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="TypeScript" value="1" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -62,7 +74,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.jsdoc.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
+            <state>
               <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
             </state>
           </provider>
@@ -76,8 +88,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/befunge93.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="484" column="20" lean-forward="true" selection-start-line="484" selection-start-column="20" selection-end-line="484" selection-end-column="20" />
+            <state relative-caret-position="9522">
+              <caret line="414" column="5" lean-forward="true" selection-start-line="414" selection-start-column="5" selection-end-line="414" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="491" column="30" selection-start-line="491" selection-start-column="30" selection-end-line="491" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -85,8 +106,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-161">
-              <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+            <state relative-caret-position="46">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -104,6 +125,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/todo" />
+        <option value="$PROJECT_DIR$/test/test.js" />
         <option value="$PROJECT_DIR$/lib/befunge93.js" />
         <option value="$PROJECT_DIR$/package.json" />
       </list>
@@ -111,9 +134,20 @@
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
@@ -121,23 +155,38 @@
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Gems</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript function metricsJavaScript</id>
+          </State>
+          <State>
+            <id>Ruby</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Action Cable</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="Befunge 93 Interpreter" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -154,11 +203,27 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="Befunge 93 Interpreter" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="9.10.0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Befunge 93 IDE" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="$USER_HOME$/AppData/Roaming/npm/node_modules/mocha" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
+    <property name="ts.external.directory.path" value="C:\Users\wsmit\AppData\Local\JetBrains\Toolbox\apps\RubyMine\ch-1\182.4323.73\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -172,7 +237,53 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Mocha.Befunge.#get().should push zero if coords are out of bounds">
+    <configuration name="befunge93.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="befunge93.js" working-dir="$PROJECT_DIR$/lib">
+      <method v="2" />
+    </configuration>
+    <configuration name="Befunge.#get().should push zero if coords are out of bounds" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/test/test.js</test-file>
+      <test-names>
+        <name value="Befunge" />
+        <name value="#get()" />
+        <name value="should push zero if coords are out of bounds" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tests" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>PATTERN</test-kind>
+      <test-pattern />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Mocha.Tests" />
+      <item itemvalue="Node.js.befunge93.js" />
+      <item itemvalue="Mocha.Befunge.#get().should push zero if coords are out of bounds" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Mocha.Befunge.#get().should push zero if coords are out of bounds" />
+        <item itemvalue="Node.js.befunge93.js" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="false" />
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_INHERITED,SHOW_CLASSES" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="9c7e029e-56b9-43b7-8765-5b366af4862b" name="Default Changelist" comment="" />
@@ -184,7 +295,8 @@
       <workItem from="1538333603962" duration="93000" />
       <workItem from="1538333721358" duration="679000" />
       <workItem from="1538338398474" duration="91000" />
-      <workItem from="1538340596352" duration="2160000" />
+      <workItem from="1538340596352" duration="2234000" />
+      <workItem from="1538534305380" duration="5263000" />
     </task>
     <task id="LOCAL-00001" summary="Updated .git- &amp; .npmignore&#10;&#10;Accidentally uploaded node_modules dir. woooops">
       <created>1538333828987</created>
@@ -200,12 +312,12 @@
       <option name="project" value="LOCAL" />
       <updated>1538333984414</updated>
     </task>
-    <task id="LOCAL-00003" summary="Fixed formatting of readme. Updated .gitignore and .npmignore">
-      <created>1538328858484</created>
+    <task id="LOCAL-00003" summary="Improved the handling of No-Op instruction in #stepInto">
+      <created>1538343012840</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1538328858484</updated>
+      <updated>1538343012840</updated>
     </task>
     <task id="LOCAL-00004" summary="Updated version to 1.0.11">
       <created>1538329243270</created>
@@ -284,22 +396,55 @@
       <option name="project" value="LOCAL" />
       <updated>1538333239978</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Befunge_#get()_should_push_zero_if_coords_are_out_of_bounds - 2018.10.02 at 21h 16m 24s.xml">
+      <configuration name="Befunge.#get().should push zero if coords are out of bounds" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Befunge_#get()_should_push_zero_if_coords_are_out_of_bounds - 2018.10.02 at 21h 17m 05s.xml">
+      <configuration name="Befunge.#get().should push zero if coords are out of bounds" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Befunge_#get()_should_push_zero_if_coords_are_out_of_bounds - 2018.10.02 at 21h 18m 28s.xml">
+      <configuration name="Befunge.#get().should push zero if coords are out of bounds" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Befunge_#get()_should_push_zero_if_coords_are_out_of_bounds - 2018.10.02 at 21h 18m 41s.xml">
+      <configuration name="Befunge.#get().should push zero if coords are out of bounds" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Befunge_#get()_should_push_zero_if_coords_are_out_of_bounds - 2018.10.02 at 21h 19m 39s.xml">
+      <configuration name="Befunge.#get().should push zero if coords are out of bounds" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Befunge_#get()_should_push_zero_if_coords_are_out_of_bounds - 2018.10.02 at 21h 20m 54s.xml">
+      <configuration name="Befunge.#get().should push zero if coords are out of bounds" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Befunge_#get()_should_push_zero_if_coords_are_out_of_bounds - 2018.10.02 at 21h 20m 59s.xml">
+      <configuration name="Befunge.#get().should push zero if coords are out of bounds" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Befunge_#get()_should_push_zero_if_coords_are_out_of_bounds - 2018.10.02 at 21h 21m 12s.xml">
+      <configuration name="Befunge.#get().should push zero if coords are out of bounds" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Befunge_#get()_should_push_zero_if_coords_are_out_of_bounds - 2018.10.02 at 21h 22m 54s.xml">
+      <configuration name="Befunge.#get().should push zero if coords are out of bounds" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Befunge_#get()_should_push_zero_if_coords_are_out_of_bounds - 2018.10.02 at 21h 23m 14s.xml">
+      <configuration name="Befunge.#get().should push zero if coords are out of bounds" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2952000" />
+    <option name="totallyTimeSpent" value="8289000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.2647504" />
-      <window_info id="Structure" order="1" sideWeight="0.50163937" side_tool="true" weight="0.24962178" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4967213" visible="true" weight="0.2677761" />
+      <window_info id="Structure" order="1" sideWeight="0.5032787" side_tool="true" visible="true" weight="0.2677761" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3295082" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5295082" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -307,7 +452,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.1704918" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.1704918" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -332,16 +477,10 @@
     <MESSAGE value="Fixed typo in documentation" />
     <MESSAGE value="Fixed error in documentation" />
     <MESSAGE value="Updated .git- &amp; .npmignore&#10;&#10;Accidentally uploaded node_modules dir. woooops" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated .git- &amp; .npmignore&#10;&#10;Accidentally uploaded node_modules dir. woooops" />
+    <MESSAGE value="Improved the handling of No-Op instruction in #stepInto" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improved the handling of No-Op instruction in #stepInto" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.jsdoc.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -366,28 +505,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/Befunge 93 Interpreter.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/Befunge 93 Interpreter.iml" />
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8820" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.jsdoc.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/global-types/node_modules/@types/mocha/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="368" column="8" selection-start-line="368" selection-start-column="8" selection-end-line="368" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="491" column="30" selection-start-line="491" selection-start-column="30" selection-end-line="491" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/befunge93.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="484" column="20" lean-forward="true" selection-start-line="484" selection-start-column="20" selection-end-line="484" selection-end-column="20" />
+        <state relative-caret-position="9522">
+          <caret line="414" column="5" lean-forward="true" selection-start-line="414" selection-start-column="5" selection-end-line="414" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-161">
-          <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        <state relative-caret-position="46">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
         </state>
       </provider>
     </entry>
