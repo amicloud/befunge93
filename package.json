@@ -23,12 +23,17 @@
   "license": "ISC",
   "scripts": {
     "generate-docs": "node_modules/.bin/jsdoc --configure .jsdoc.json --verbose",
-    "test": "mocha"
+    "coveralls": "nyc npm test && nyc report --reporter=text-lcov | coveralls",
+    "test": "mocha",
+    "mocha": "mocha"
   },
   "devDependencies": {
+    "chai": "latest",
+    "coveralls": "^3.0.2",
     "minami": "^1.2.3",
     "mocha": "latest",
-    "chai": "latest"
+    "mocha-lcov-reporter": "^1.3.0",
+    "nyc": "^13.0.1"
   },
   "dependencies": {
     "sinon": "^6.3.4",

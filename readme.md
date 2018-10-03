@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/amicloud/befunge93.svg?branch=master)](https://travis-ci.org/amicloud/befunge93) 
 # Befunge93
 
 Befunge93 is an interpreter written in JavaScript for the Befunge93 esoteric programming language.
