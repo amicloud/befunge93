@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c7e029e-56b9-43b7-8765-5b366af4862b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,19 +26,20 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="gitignore" value="1" />
           <entry key="js" value="2203" />
           <entry key="json" value="22" />
           <entry key="todo" value="1" />
-          <entry key="txt" value="287" />
-          <entry key="yml" value="40" />
+          <entry key="txt" value="440" />
+          <entry key="yml" value="47" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="22" />
           <entry key="JavaScript" value="2203" />
-          <entry key="PLAIN_TEXT" value="288" />
-          <entry key="YAML" value="40" />
+          <entry key="PLAIN_TEXT" value="442" />
+          <entry key="YAML" value="47" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -50,6 +51,7 @@
       <usages-collector id="statistics.actions.runAnything" />
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="gitignore" value="1" />
           <entry key="iml" value="1" />
           <entry key="js" value="1" />
           <entry key="json" value="1" />
@@ -64,7 +66,7 @@
           <entry key="IDEA_MODULE" value="1" />
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="1" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="TypeScript" value="1" />
           <entry key="XML" value="1" />
           <entry key="YAML" value="1" />
@@ -106,11 +108,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+            <state relative-caret-position="23">
+              <caret line="16" column="15" lean-forward="true" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -119,9 +121,14 @@
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="69">
-              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+              <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -140,8 +147,9 @@
         <option value="$PROJECT_DIR$/todo" />
         <option value="$PROJECT_DIR$/test/test.js" />
         <option value="$PROJECT_DIR$/lib/befunge93.js" />
-        <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -309,7 +317,7 @@
       <workItem from="1538333721358" duration="679000" />
       <workItem from="1538338398474" duration="91000" />
       <workItem from="1538340596352" duration="2234000" />
-      <workItem from="1538534305380" duration="5940000" />
+      <workItem from="1538534305380" duration="6384000" />
     </task>
     <task id="LOCAL-00001" summary="Updated .git- &amp; .npmignore&#10;&#10;Accidentally uploaded node_modules dir. woooops">
       <created>1538333828987</created>
@@ -339,12 +347,12 @@
       <option name="project" value="LOCAL" />
       <updated>1538540782812</updated>
     </task>
-    <task id="LOCAL-00005" summary="Changed docs directory to better suite github pages">
-      <created>1538329756449</created>
+    <task id="LOCAL-00005" summary="Added Travis-CI stuff. Also + &quot;tests&quot; script in package.json">
+      <created>1538541388771</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1538329756449</updated>
+      <updated>1538541388771</updated>
     </task>
     <task id="LOCAL-00006" summary="Changed docs directory">
       <created>1538330068990</created>
@@ -409,7 +417,7 @@
       <option name="project" value="LOCAL" />
       <updated>1538333239978</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -445,13 +453,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8966000" />
+    <option name="totallyTimeSpent" value="9410000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4967213" visible="true" weight="0.2677761" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4967213" visible="true" weight="0.2677761" />
       <window_info id="Structure" order="1" sideWeight="0.5032787" side_tool="true" visible="true" weight="0.2677761" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" />
@@ -492,16 +500,10 @@
     <MESSAGE value="Updated .git- &amp; .npmignore&#10;&#10;Accidentally uploaded node_modules dir. woooops" />
     <MESSAGE value="Improved the handling of No-Op instruction in #stepInto" />
     <MESSAGE value="Fixed some not-so-correct behavior. Fixes issue #1 and #2. Includes tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed some not-so-correct behavior. Fixes issue #1 and #2. Includes tests" />
+    <MESSAGE value="Added Travis-CI stuff. Also + &quot;tests&quot; script in package.json" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Travis-CI stuff. Also + &quot;tests&quot; script in package.json" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.npmignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -532,9 +534,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/todo">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
@@ -563,19 +562,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        <state relative-caret-position="23">
+          <caret line="16" column="15" lean-forward="true" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
