@@ -24,7 +24,7 @@
   "scripts": {
     "generate-docs": "node_modules/.bin/jsdoc --configure .jsdoc.json --verbose",
     "coveralls": "nyc npm test && nyc report --reporter=text-lcov | coveralls",
-    "test": "mocha",
+    "test": "node --test node-tests/*.test.js",
     "mocha": "mocha"
   },
   "devDependencies": {
