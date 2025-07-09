@@ -26,5 +26,4 @@ befunge.onStackChange = (stack) => {
 
 befunge.run("1123v\n>89#4>:#._@\n^765<")
     .then((output) => {
-        console.log(output);
-    });
+        console.log(output);    });
