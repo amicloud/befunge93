@@ -26,9 +26,15 @@ let befunge = new Befunge();
 befunge.run("1234v\n>9 #5>:#._@\n^876<")
     .then((output) => {
         console.log(output);
+    })
+    .catch((err) => {
+        console.error('Error running program:', err.message);
     });
 ```
 Outputs: "9 8 7 6 5 4 3 2 1 "
+
+**Note**: Programs may not exceed 80 characters per line or 25 lines in total.
+`run` and `loadProgram` will throw an error if these limits are surpassed.
 
 ### Advanced Usage
 

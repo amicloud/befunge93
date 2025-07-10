@@ -722,6 +722,16 @@ describe('Befunge', function () {
             expect(bef.program[2][1]).to.equal(".");
             expect(bef.program[2][2]).to.equal("@");
         });
+
+        it('should throw when program is taller than 25 lines', function () {
+            const data = Array(26).fill('line').join('\n');
+            expect(() => bef.loadProgram(data)).to.throw(Error);
+        });
+
+        it('should throw when a line exceeds 80 characters', function () {
+            const line = 'a'.repeat(81);
+            expect(() => bef.loadProgram(line)).to.throw(Error);
+        });
     });
 
     describe('#getToken', function () {
@@ -805,6 +815,22 @@ describe('Befunge', function () {
             bef.run("12312@");
             bef.run("123@", true);
             expect(spy.callCount).to.equal(1);
+        });
+
+        it('should reject when program is taller than 25 lines', function (done) {
+            const data = Array(26).fill('line').join('\n');
+            bef.run(data).then(() => done(new Error('expected error'))).catch((err) => {
+                expect(err).to.be.an('Error');
+                done();
+            });
+        });
+
+        it('should reject when a line exceeds 80 characters', function (done) {
+            const line = 'a'.repeat(81);
+            bef.run(line).then(() => done(new Error('expected error'))).catch((err) => {
+                expect(err).to.be.an('Error');
+                done();
+            });
         });
 
         it('should give expected output for program', function () {
