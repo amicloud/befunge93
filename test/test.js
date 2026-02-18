@@ -200,6 +200,12 @@ describe('Befunge', function () {
             bef.modulo();
             expect(bef.stack).to.deep.equal([0]);
         });
+
+        it('given [a,0] should do give [0]', function () {
+            bef.stack = [3, 0];
+            bef.modulo();
+            expect(bef.stack).to.deep.equal([0]);
+        });
     });
 
     describe('#not()', function () {
@@ -474,6 +480,12 @@ describe('Befunge', function () {
             bef.stack = [97, 3, 6];
             bef.put();
             expect(bef.program[6][3]).to.equal("a");
+        });
+
+        it('should ignore out of bounds writes', function () {
+            bef.stack = [97, 3, 25];
+            expect(() => bef.put()).to.not.throw();
+            expect(bef.program[24][3]).to.equal(" ");
         });
     });
 
