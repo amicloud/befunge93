@@ -201,8 +201,20 @@ describe('Befunge', function () {
             expect(bef.stack).to.deep.equal([0]);
         });
 
-        it('given [a,0] should do give [0]', function () {
+        it('given [a,0] should give [0]', function () {
             bef.stack = [3, 0];
+            bef.modulo();
+            expect(bef.stack).to.deep.equal([0]);
+        });
+
+        it('given negative [a,0] should give [0]', function () {
+            bef.stack = [-3, 0];
+            bef.modulo();
+            expect(bef.stack).to.deep.equal([0]);
+        });
+
+        it('given [0,0] should give [0]', function () {
+            bef.stack = [0, 0];
             bef.modulo();
             expect(bef.stack).to.deep.equal([0]);
         });
